@@ -1,3 +1,4 @@
 # Text Editor Starter Code
 
-changes
+client > src > js > database.js
+client > src > js > install.js
