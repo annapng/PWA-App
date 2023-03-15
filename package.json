@@ -4,11 +4,9 @@
   "description": "client > src > js > database.js client > src > js > install.js",
   "main": "index.js",
   "scripts": {
-    "start:dev": "concurrently \"cd ./Develop/client && npm run build\" \"cd ./Develop/server && npm run server\" ",
-    "start": "npm run build && cd ./Develop/server && node server.js",
+    "start": "concurrently \"cd ./Develop/client && npm run build\" \"cd ./Develop/server && npm run server\" ",
     "server": "cd ./Develop/server server.js --ignore client",
-    "build": "cd Develop/server && npm i && cd ../client && npm i && npm run build",
-    "client": "cd ./Develop/client && npm start"
+    "build": "cd Develop/server && npm i && cd ../client && npm i && npm run build"
   },
   "repository": {
     "type": "git",
